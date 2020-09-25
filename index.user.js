@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CafeCoderStandingsColorizer
 // @namespace    https://makutamoto.com/
-// @version      0.2
+// @version      0.3
 // @description  Colorize the CafeCoder standings page.
 // @author       Makutamoto
 // @match        https://cafecoder.top/*
