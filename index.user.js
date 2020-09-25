@@ -26,7 +26,7 @@
                             fetch(`https://atcoder-badges.now.sh/api/rating/${user.innerText}`).then((data) => {
                                 data.json().then((data) => {
                                     const rating = data.rating === null ? null : (data.rating.atcoder === null ? null : data.rating.atcoder);
-                                    if(rating) user.style.color = colors[Math.floor(rating / 400)];
+                                    if(rating) user.style.color = colors[Math.min(7, Math.floor(rating / 400))];
                                 })
                             });
                         }
